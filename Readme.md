@@ -7,7 +7,7 @@ Gather是一个数据采集工具，使用python3编写，使用的时候请确�
 Gather极力避免各种繁杂的参数，使用-aF or aZ or -aS 指定特定采集方式即可。
 
 ```
-git clone
+git clone https://github.com/EASY233/Gather.git
 pip install -r requirements.txt
 python3 Gather.py -h
   -aF         Using fofa to collect data
