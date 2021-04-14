@@ -37,7 +37,7 @@ api_key = ""
 
 ## 运行效果
 
-通过fofa进行数据采集，该脚本修改自开源项目:[[fofa_spider-1.0.3](https://github.com/FightingForWhat/fofa_spider-1.0.3)
+通过fofa进行数据采集，该脚本修改自开源项目:[fofa_spider-1.0.3](https://github.com/FightingForWhat/fofa_spider-1.0.3)
 
 ![](https://picbed.easy233.top//imgimage-20210414210322955.png)
 
