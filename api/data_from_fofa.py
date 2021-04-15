@@ -166,7 +166,7 @@ class Fofa:
 
     def save(self):
         global host_list
-        path = os.path.join(Save_Path,"Shodan_{}.txt".format(time.strftime('%Y%m%d%H%M%S')))
+        path = os.path.join(Save_Path,"Fofa_{}.txt".format(time.strftime('%Y%m%d%H%M%S')))
         with open(path,'w',encoding="utf-8") as file:
             for line in host_list:
                 file.write(line + '\n')
