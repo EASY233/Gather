@@ -25,7 +25,7 @@ class ZoomEye:
             print('[*] Available ZoomEye search: (search:%s)' % (info.get('search', 'NO FOUND')))
         keyword = input("请输入Zoomeye搜索关键字:")
         start_pages = input("请输入开始页数:")
-        end_pages = input("请输入介绍页数:")
+        end_pages = input("请输入结束页数:")
         for page_n in range(int(start_pages), int(end_pages)+1):
             data  = self.dork_search(keyword, int(page_n))
             if data:
